@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url(../imagenes/fondok.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.heder-superior{
+    position: absolute;
+    z-index: 10;
+    opacity: 0.6;
+}
+.navbar-brand{
+    margin-right: 1000px;
+
+}
+.logo{
+    margin-left: 20px;
+}
+
+.obras img{
+    margin-top: 60px;
+    margin-left: 180px;
+}
+
+.titulo1{
+    position: absolute;
+    top: 500px;
+    left: 960px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.titulo2{
+    position: absolute;
+    top: 1200px;
+    left: 200px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.foto2{
+    margin-top: -40px;
+}
+.foto3{
+    margin-top: -60px;
+}
+.titulo3{
+    position: absolute;
+    top: 2150px;
+    left: 850px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.foto4{
+    margin-top: -40px;
+}
+.foto5{
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+#boton-subir{
+    width: 60px;
+    height: 60px;
+    background: rgb(86, 88, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    bottom: 130px;
+    right: 20px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+    z-index:10;
+
+}
+#boton-subir:hover{
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+}

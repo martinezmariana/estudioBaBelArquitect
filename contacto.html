@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto Babel</title>
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="shortcut icon" href="imagenes/logopk.png" type="image/x-icon" sizes="96x96">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+  <header class="heder-superior">
+    <nav class="navbar bg-light fixed-top">
+    
+        <div class="container-fluid">
+          <img  class="logo" src="imagenes/logopk.png" alt="" width="40px" height="40px">
+          <a class="navbar-brand" href="#" text-aline="letf">ESTUDIO BABEL </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+           </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ESTUDIO BABEL </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ESTUDIO BABEL
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item" href="estudio.html">ESTUDIO</a></li>
+                  <li><a class="dropdown-item" href="obras.html">OBRAS</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="proyectos.html">PROYECTOS</a></li>
+                  <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLScSPOSxe9v3SQwkwxxIpa3M8y5_jT3PR1EmLe1QXsg3eKU5jw/viewform?usp=sf_link" target="_blank" rel="noopener">COTIZA TU CASA</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+ </header>
+    <div class="formulario">
+        <div class="info_contacto">
+            <section class="titulo_contacto">
+                 <p ><i class="bi bi-person-circle"></i></p>
+                 <h3 class="titu"> INFO <br> DE <br> CONTACTO</h3>
+                 <p class="titup">Para lo que necesites, estamos en contacto.</p>
+             </section>
+             <section class="contacto">
+               <p><i class="bi bi-envelope-fill"></i>EstudioBaBel@gmail.com </p>
+               <p><i class="bi bi-telephone-inbound-fill"></i>336-518457</p>
+               <p><i class="bi bi-geo-alt-fill"></i></i>Nacion 600. San Nicolas <br> De Los Arroyos</p>
+             </section>
+            <section class="redes">
+                <ul>
+                    <li><a href="https://www.facebook.com/estudio.babel" aria-hidden="true"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/babel_arquitectos/" aria-hidden="true"><i class="bi bi-instagram"></i></a></li>
+               </ul>
+            </section>
+        </div>
+<div class="contact_form">
+   <div class="formulario_contacto">
+        <form action=" " method="post">
+             <p class="formut">
+                <label for="nombre" class ="colocar_nombre">Nombres
+                 <span class ="obligatorio">*</span>
+                 </label>
+                  <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                   placeholder="No te olvides de cargarte" maxlength="5">
+             </p>
+              <p class="formut">
+              <label for ="email" class ="colocar_email"> Email
+                <span class="obligatorio">* </span>
+              </label>
+             <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+               </p>
+
+              <p class="formut">
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                    <span class="obligatorio">*</span>
+                  </label>
+                  <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+             </p>
+               <p class="formut">
+                 <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+              </p>
+
+               <button type="submit" value="Enviar" class="boton">
+               <p>Enviar</p></button>
+          </form>
+    </div>
+    </div>
+</div>
+
+
+      <!-- End Example Code -->
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
