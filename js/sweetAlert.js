@@ -1,7 +1,7 @@
 (async () => {
 
 	const { value: email } = await Swal.fire({
-	  title: '¡BIENBENIDOS!',
+	  title: '!BIENVENIDOS!',
 	  input: 'email',
 	  inputLabel: 'Registrate y Recibi nuestras info!',
 	  inputPlaceholder: 'email'
